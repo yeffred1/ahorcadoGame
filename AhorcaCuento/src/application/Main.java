@@ -8,10 +8,11 @@ import javafx.stage.Stage;
 
 
 public class Main extends Application {
+	String FrmInicio = "/aplication/escenarios/inicio.fxml";
 	@Override
 	public void start(Stage primaryStage) {
 		try {
-			 Parent root = FXMLLoader.load(getClass().getResource("/aplication/escenarios/inicio.fxml"));
+			 Parent root = FXMLLoader.load(getClass().getResource(FrmInicio));
 		        
 		        Scene scene = new Scene(root);
 		        
