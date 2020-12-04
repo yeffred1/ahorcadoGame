@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.paint.*?>
 <?import javafx.scene.image.*?>
 <?import javafx.geometry.*?>
 <?import javafx.scene.text.*?>
@@ -8,22 +9,19 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane prefHeight="405.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane prefHeight="405.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="aplication.escenarios.controller.inicioController">
    <children>
-      <ImageView fitHeight="346.0" fitWidth="693.0" layoutX="6.0" layoutY="126.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="128.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="2.69061279296875" AnchorPane.topAnchor="126.0">
-         <image>
-            <Image url="@/imagenes/ImgenInicio.PNG" />
-         </image>
-      </ImageView>
-      <Label layoutX="113.0" layoutY="24.0" text="AhorcaCuento" textAlignment="CENTER">
+      <ImageView fx:id="fondo" fitHeight="600.0" fitWidth="700.0" layoutY="1.0" pickOnBounds="true" AnchorPane.bottomAnchor="-1.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="1.0" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="2.0" layoutY="24.0" prefHeight="104.0" prefWidth="700.0" text="AhorcaCuento" textAlignment="CENTER" textFill="#ba5050">
          <font>
-            <Font name="Arial Rounded MT Bold" size="71.0" />
+            <Font name="System Bold" size="71.0" />
          </font>
       </Label>
-      <Button layoutX="255.0" layoutY="235.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="192.0" text="Iniciar el Juego" textAlignment="CENTER" />
-      <Button layoutX="255.0" layoutY="266.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="192.0" text="Reglas" textAlignment="CENTER" />
-      <Button layoutX="255.0" layoutY="300.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="192.0" text="Configuracion" textAlignment="CENTER" />
-      <Button layoutX="254.0" layoutY="336.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="192.0" text="Tutorial" textAlignment="CENTER" />
-      <Button layoutX="255.0" layoutY="430.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="192.0" text="Salida" textAlignment="CENTER" AnchorPane.bottomAnchor="145.0" AnchorPane.leftAnchor="255.0" AnchorPane.rightAnchor="253.0" AnchorPane.topAnchor="430.0" />
+      <Button layoutX="255.0" layoutY="235.0" mnemonicParsing="false" onAction="#clic_IniciarJuego" prefHeight="25.0" prefWidth="192.0" text="Iniciar el Juego" textAlignment="CENTER" />
+      <Button layoutX="255.0" layoutY="266.0" mnemonicParsing="false" onAction="#clic_Reglas" prefHeight="25.0" prefWidth="192.0" text="Reglas" textAlignment="CENTER" />
+      <Button layoutX="255.0" layoutY="300.0" mnemonicParsing="false" onAction="#clic_Config" prefHeight="25.0" prefWidth="192.0" text="Configuracion" textAlignment="CENTER" />
+      <Button layoutX="254.0" layoutY="336.0" mnemonicParsing="false" onAction="#clic_Tutorial" prefHeight="25.0" prefWidth="192.0" text="Tutorial" textAlignment="CENTER" />
+      <Button layoutX="255.0" layoutY="430.0" mnemonicParsing="false" onAction="#clic_Salir" prefHeight="25.0" prefWidth="192.0" text="Salida" textAlignment="CENTER" AnchorPane.bottomAnchor="145.0" AnchorPane.leftAnchor="255.0" AnchorPane.rightAnchor="253.0" AnchorPane.topAnchor="430.0" />
+      <Button layoutX="301.0" layoutY="196.0" mnemonicParsing="false" onAction="#clic_Fondo" text="Cambiar Fondo" />
    </children>
 </AnchorPane>
