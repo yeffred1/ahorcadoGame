@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane prefHeight="405.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="aplication.escenarios.controller.inicioController">
+<AnchorPane centerShape="false" minWidth="-Infinity" prefHeight="405.0" prefWidth="700.0" scaleShape="false" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="aplication.escenarios.controller.inicioController">
    <children>
       <ImageView fx:id="fondo" fitHeight="600.0" fitWidth="700.0" layoutY="1.0" pickOnBounds="true" AnchorPane.bottomAnchor="-1.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="1.0" />
       <Label alignment="CENTER" contentDisplay="CENTER" layoutX="2.0" layoutY="24.0" prefHeight="104.0" prefWidth="700.0" text="AhorcaCuento" textAlignment="CENTER" textFill="#ba5050">
