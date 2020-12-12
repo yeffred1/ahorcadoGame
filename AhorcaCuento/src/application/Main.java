@@ -24,7 +24,7 @@ public class Main extends Application {
 			e.printStackTrace();
 		}
 	}
-	/*Editado 20201212 6:30*/
+	/*Editado 20201212 6:30 */
 	public static void main(String[] args) {
 		launch(args);
 	}
