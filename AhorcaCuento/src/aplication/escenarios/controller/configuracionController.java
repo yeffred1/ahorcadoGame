@@ -7,5 +7,4 @@ import javafx.scene.layout.AnchorPane;
 public class configuracionController {
 	@FXML
 	private AnchorPane frmConfiguracion;
-
 }
