@@ -1,6 +1,5 @@
 package application;
 	
-import aplication.escenarios.controller.inicioController;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -10,6 +9,7 @@ import javafx.stage.Stage;
 
 public class Main extends Application {
 	String FrmInicio = "/aplication/escenarios/inicio.fxml";
+	String prueba = "/aplication/escenarios/uno.fxml";
 
 	@Override
 	public void start(Stage primaryStage) {	

@@ -1,8 +1,7 @@
-package prueba;
-
-import javafx.fxml.FXML;
+package aplication.escenarios.controller;
 
 import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 import javafx.scene.layout.Pane;
 
@@ -14,8 +13,6 @@ public class unoController {
 	@FXML
 	private Label titulo;
 
-	
-
 	// Event Listener on Button.onAction
 	@FXML
 	public void uno(ActionEvent event) {
@@ -23,6 +20,7 @@ public class unoController {
 		PUno.setVisible(true);
 		PDos.setVisible(false);
 	}
+
 	// Event Listener on Button.onAction
 	@FXML
 	public void dos(ActionEvent event) {
@@ -30,7 +28,9 @@ public class unoController {
 		PDos.setVisible(true);
 		PUno.setVisible(false);
 	}
+
 	public void escenarioUno() {
-		PUno
+
 	}
+	
 }

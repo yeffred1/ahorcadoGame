@@ -23,5 +23,15 @@
       <Button layoutX="254.0" layoutY="336.0" mnemonicParsing="false" onAction="#clic_Tutorial" prefHeight="25.0" prefWidth="192.0" text="Tutorial" textAlignment="CENTER" />
       <Button layoutX="255.0" layoutY="430.0" mnemonicParsing="false" onAction="#clic_Salir" prefHeight="25.0" prefWidth="192.0" text="Salida" textAlignment="CENTER" AnchorPane.bottomAnchor="145.0" AnchorPane.leftAnchor="255.0" AnchorPane.rightAnchor="253.0" AnchorPane.topAnchor="430.0" />
       <Button layoutX="301.0" layoutY="196.0" mnemonicParsing="false" onAction="#clic_Fondo" text="Cambiar Fondo" />
+      <Pane fx:id="puno" layoutX="355.0" layoutY="109.0" prefHeight="408.0" prefWidth="200.0" style="-fx-background-color: red;">
+         <children>
+            <Button mnemonicParsing="false" onAction="#botonRojo" text="Button" />
+         </children>
+      </Pane>
+      <Pane fx:id="pdos" layoutX="155.0" layoutY="166.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: black;">
+         <children>
+            <CheckBox mnemonicParsing="false" onAction="#selecnegro" text="CheckBox" />
+         </children>
+      </Pane>
    </children>
 </AnchorPane>
